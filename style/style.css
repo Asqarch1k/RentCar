@@ -1,0 +1,416 @@
+.inputValue {
+  max-width: 522px;
+  height: 44px;
+  border-radius: 70px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  background: var(--primary-0, #fff);
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.inputValue input {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  margin-right: 235px;
+}
+
+.inputValue input::placeholder {
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  color: #596780;
+}
+
+.searchIcon {
+  color: #596780;
+}
+
+.header {
+  padding: 30px 0;
+  position: relative;
+}
+.bg-white {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+}
+.headerLogo {
+  max-width: 148px;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  color: #3563e9;
+}
+
+.likeBtn {
+  border-radius: 50%;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  opacity: 0.8;
+  padding: 0 13px;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.likeBtn:active {
+  transform: scale(0.9);
+}
+
+.likeBtnColor {
+  color: #596780;
+}
+
+.headerCar {
+  padding-top: 160px;
+}
+
+.headerCard {
+  width: 640px;
+  height: 360px;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-left: 24px;
+  background-image: url(../images/bgImage1.png);
+  background-repeat: no-repeat;
+}
+
+.TheBestText {
+  max-width: 272px;
+  color: var(--primary-0, #fff);
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.96px;
+  margin-bottom: 20px;
+}
+
+.headerCard1 {
+  background-image: url(../images/bgImage2.png);
+}
+
+.secondBtn {
+  background-color: #54a6ff;
+}
+
+.EaseOfText {
+  max-width: 284px;
+  color: var(--primary-0, #fff);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  margin-bottom: 20px;
+}
+
+.headerCard img {
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.SelectCity {
+  border: none;
+  outline: none;
+  color: #90a3bf;
+  cursor: pointer;
+}
+
+.SelectCity option {
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+}
+
+.selectCity {
+  gap: 40px;
+}
+
+.locationDate {
+  max-width: 582px;
+  height: 136px;
+  border-radius: 10px;
+  background: var(--primary-0, #fff);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  padding-left: 48px;
+}
+
+.LocationTExt {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.middleArrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: var(--primary-500, #3563e9);
+  padding-top: 22px;
+  padding-left: 22px;
+}
+
+.swapIcon {
+  color: #ffffff;
+}
+
+.drops {
+  color: var(--secondary-500, #1a202c);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+}
+
+.carsBox {
+  margin-bottom: 15px;
+  max-width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background: var(--primary-0, #fff);
+  padding: 24px;
+  position: relative;
+  border: 1px solid rgba(68, 60, 60, 0.525);
+}
+
+.carsBox img {
+  width: 232px;
+  height: 85px;
+}
+
+.nameText {
+  width: 128px;
+  height: 24px;
+  color: var(--secondary-500, #1a202c);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.likeIcon1 {
+  color: red;
+}
+
+.likeIcon:hover {
+  cursor: pointer;
+}
+
+.likeIcons {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  font-size: 25px;
+}
+.typeText {
+  width: 128px;
+  height: 20px;
+  color: var(--secondary-300, #90a3bf);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.nowPrise {
+  color: var(--secondary-500, #1a202c);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  width: 116px;
+  height: 44px;
+  white-space: nowrap;
+}
+
+.dayTexi {
+  color: #90a3bf;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+}
+
+.oldPrise {
+  width: 128px;
+  height: 20px;
+  color: var(--secondary-300, #90a3bf);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: line-through;
+}
+
+.colors1 {
+  color: #90a3bf;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+}
+
+.popularCar {
+  display: flex;
+  overflow-y: auto;
+  gap: 32px;
+}
+
+.popularCar::-webkit-scrollbar {
+  display: none;
+}
+
+.recomendedCar {
+  max-width: 1312px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.PopularCarText {
+  color: #90a3bf;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  margin-top: 42px;
+  margin-bottom: 30px;
+}
+
+.showMoreBtn {
+  display: none;
+}
+
+.OurVisionText {
+  max-width: 292px;
+  color: rgba(19, 19, 19, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.aboutText {
+  margin-bottom: 24px;
+}
+
+.aboutText:active {
+  transform: scale(0.9);
+}
+
+.aboutText a {
+  color: #1a202c;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul li a {
+  color: rgba(19, 19, 19, 0.6);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+}
+
+.footer {
+  padding: 60px;
+  background-color: #fff;
+}
+
+.footerText p {
+  color: var(--secondary-500, #1a202c);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.modalCard {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(19, 19, 19, 0.6);
+}
+
+.modalCard .boxsModal {
+  width: 355px;
+  height: 450px;
+  background-color: white;
+  margin-left: 300px;
+  margin-top: 200px;
+  border-radius: 20px;
+  overflow: auto;
+  margin: 200px auto;
+  position: relative;
+  padding: 30px 20px;
+}
+
+.modalCard .boxsModal::-webkit-scrollbar {
+  display: none;
+}
+.headerModal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.mainCarPhoto:hover {
+  transform: scale(1.1);
+  transition: 0.8s all ease;
+}
+
+.ulli {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
+  background-color: rgb(233, 231, 231);
+  margin-top: 30px;
+  border-radius: 20px;
+  display: none;
+}
+
+input:focus ~ .ulli {
+  display: flex;
+}
+
+.boxsModal .xButton {
+  content: "";
+  cursor: pointer;
+  width: 30px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 6px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: red;
+  font-size: 35px;
+  background-color: #54a6ff;
+}
+
+.secondModalBox {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.secondModalBox::-webkit-scrollbar {
+  display: none;
+}
+
+.footerrigtsec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+.footerTop {
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.footerMal {
+  flex-wrap: wrap;
+}

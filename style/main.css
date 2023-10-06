@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 64px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #f6f7f9;
+}
+.wrapper {
+  background: #f6f7f9;
+}
+.df {
+  display: flex;
+}
+
+.m-top {
+  margin-top: 32px;
+}
+
+.m-top-25 {
+  margin-top: 25px;
+}
+
+.m-bot-64 {
+  margin-bottom: 64px;
+}
+.m-bot-24 {
+  margin-bottom: 24px;
+}
+.m-bot-64 {
+  margin-bottom: 36px;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-6 {
+  gap: 6px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-64 {
+  gap: 64px;
+}
+
+.btn {
+  height: 44px;
+  padding: 0px 20px;
+  border-radius: 4px;
+  background: var(--primary-500, #3563e9);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 375px) {
+  .footerText p {
+    color: var(--secondary-500, #1a202c);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px !important;
+    white-space: nowrap;
+  }
+  .profilSec{
+    margin-left: -150px !important;
+  }
+  
+  .footer {
+    padding: 24px !important;
+    background-color: #fff;
+  }
+
+  .footer {
+    padding: 30px !important;
+    background-color: #fff;
+  }
+  .container {
+    padding: 0 12px !important;
+  }
+  .headerCard1 {
+    display: none;
+  }
+
+  .footerTop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerCard {
+    max-width: 327px !important;
+    /* height: 232px; */
+    border-radius: 10px;
+    background-image: url(../images/bgImage1.png);
+  }
+
+  .locationDate {
+    max-width: 327px !important;
+    height: 136px;
+    border-radius: 10px;
+    background: var(--primary-0, #fff);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 24px;
+    padding-left: 48px;
+  }
+
+  .selectCity {
+    gap: 20px !important;
+  }
+
+  .locationDate {
+    width: 327px;
+    height: 232px;
+    border-radius: 10px;
+    background: var(--primary-0, #fff);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 24px;
+    padding-left: 20px !important;
+    padding: 16px !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .headerLogos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .headerCard1 {
+    display: none;
+  }
+
+  .datesAndLoc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 12px !important;
+  }
+  .TheBestText {
+    display: none;
+  }
+  .EaseOfText {
+    display: none;
+  }
+
+  .headerCard img {
+    display: none;
+  }
+
+  .headerCard {
+    background-image: url(../images/Ads.png) !important;
+    background-repeat: no-repeat;
+    height: 250px !important;
+    padding-top: 100px !important;
+    width: 327px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    max-width: 1000px;
+    padding: 0 50px;
+  }
+  .likesection {
+    display: none;
+  }
+
+  .inputValue {
+    height: 44px;
+    border-radius: 70px;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    background: var(--primary-0, #fff);
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+  }
+
+  .inputValue input {
+    margin-right: 10px !important;
+  }
+}
+@media (max-width: 725px) {
+  .recomendedCar {
+    max-width: 1312px !important;
+    margin: 0 auto !important;
+  }
+}
